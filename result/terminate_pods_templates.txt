@@ -1,0 +1,44 @@
+ID=1     : size=717       : <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+ID=7     : size=290       : No controls to apply on <:*:>
+ID=11    : size=72        : Loading <:*:>
+ID=23    : size=52        : Activity <:*:> loaded from <:*:>
+ID=24    : size=52        : Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+ID=27    : size=39        : => succeeded with <:*:>
+ID=42    : size=39        : <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+ID=8     : size=36        : Building activity cache...
+ID=9     : size=36        : Cached <:NUM:> activities
+ID=12    : size=36        : Done loading secrets
+ID=14    : size=36        : Clearing activities cache
+ID=20    : size=35        : Running steady-state hypothesis <:*:> the method
+ID=21    : size=35        : Steady state hypothesis: Verifying service remains healthy
+ID=22    : size=35        : Probe: all-our-microservices-should-be-healthy
+ID=25    : size=35        : Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+ID=26    : size=35        : Deployment has <:*:> available replicas
+ID=28    : size=22        : allowed tolerance is True
+ID=29    : size=22        : Steady state hypothesis is met!
+ID=33    : size=21        : Pod <:*:> match pattern
+ID=2     : size=18        : ###############################################################################
+ID=3     : size=18        : Running command 'run'
+ID=4     : size=18        : Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+ID=5     : size=18        : There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+ID=6     : size=18        : The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+ID=10    : size=18        : Validating the experiment's syntax
+ID=13    : size=18        : Experiment looks valid
+ID=15    : size=18        : Loading dynamic configuration...
+ID=16    : size=18        : Running experiment: Do we remain available in case of pod going down?
+ID=17    : size=18        : Initializing controls
+ID=18    : size=18        : Steady-state strategy: default
+ID=19    : size=18        : Rollbacks strategy: default
+ID=39    : size=18        : Experiment ended with status: <:*:>
+ID=41    : size=18        : Cleaning up controls
+ID=30    : size=17        : Playing your experiment's method now...
+ID=31    : size=17        : Action: terminate-humidSensor-pod
+ID=32    : size=17        : Found <:NUM:> pods in ns 'default'
+ID=34    : size=17        : Pausing after activity for <:DURATION:>...
+ID=35    : size=13        : Activity failed
+ID=36    : size=13        : => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+ID=37    : size=13        : Probe terminated unexpectedly, so its tolerance could not be validated
+ID=38    : size=13        : Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+ID=40    : size=12        : The steady-state has deviated, a weakness may have been discovered
+ID=43    : size=5         : Let's rollback...
+ID=44    : size=5         : No declared rollbacks, let's move on.

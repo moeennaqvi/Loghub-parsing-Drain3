@@ -1,0 +1,97 @@
+ID=42    : size=56731     : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO <:*:> <:*:> <:*:> <:*:> <:*:> HTTP/<:NUM:>.<:NUM:>" status: <:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>
+ID=40    : size=11603     : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=41    : size=10085     : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=45    : size=6592      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=48    : size=6389      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=54    : size=5685      : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.metadata.wsgi.server <:IP:>,<:IP:> "GET <:*:> HTTP/<:NUM:>.<:NUM:>" status: <:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>
+ID=49    : size=5077      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.virt.libvirt.imagecache image <:DURATION:>d71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/ base/<:SEQ:>): in use: on this node <:NUM:> local, <:NUM:> on other nodes sharing this instance storage
+ID=76    : size=4192      : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=74    : size=4138      : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=75    : size=4120      : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.virt.libvirt.imagecache image <:DURATION:>d71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/ base/<:SEQ:>): in use: on this node <:NUM:> local, <:NUM:> on other nodes sharing this instance storage
+ID=44    : size=3945      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> <:*:> <:*:> <:*:> <:*:>
+ID=52    : size=2624      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.virt.libvirt.driver Instance <:*:> successfully.
+ID=53    : size=2624      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager Took <:NUM:>.<:NUM:> seconds to <:*:> the instance on the hypervisor.
+ID=50    : size=2588      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager During sync power state the instance has a pending task <:*:> Skip.
+ID=46    : size=1788      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.resource tracker <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=1     : size=1593      : <:*:> restarts:<:NUM:>(<:DURATION:>ago) age:<:DURATION:>
+ID=39    : size=1313      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager Took <:NUM:>.<:NUM:> seconds to deallocate network for instance.
+ID=43    : size=1313      : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.claims Attempting claim: memory <:NUM:> MB, disk <:NUM:> GB, vcpus <:NUM:> CPU
+ID=51    : size=1312      : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.api.openstack.compute.server external events Creating event <:*:> for instance <:*:>
+ID=55    : size=1312      : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.api.openstack.wsgi HTTP exception thrown: No instances found for any event
+ID=47    : size=894       : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.resource tracker Final resource view: name=cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us phys ram=64172MB used <:*:> phys disk=15GB used <:*:> total vcpus=<:NUM:> used vcpus=<:NUM:> pci stats=
+ID=78    : size=752       : nova-api.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO <:*:> <:*:> <:*:> <:*:> <:*:> HTTP/<:NUM:>.<:NUM:>" status: <:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>
+ID=83    : size=687       : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.resource tracker <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=57    : size=638       : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.virt.libvirt.imagecache Base or swap file too young to remove: /var/lib/nova/instances/ base/<:SEQ:>
+ID=85    : size=462       : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=84    : size=343       : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.resource tracker Final resource view: name=cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us phys ram=64172MB used <:*:> phys disk=15GB used <:*:> total vcpus=<:NUM:> used vcpus=<:NUM:> pci stats=
+ID=59    : size=226       : nova-scheduler.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.scheduler.host manager The instance sync for host 'cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match. Re-created its InstanceList.
+ID=6     : size=225       : No controls to apply on <:*:>
+ID=56    : size=219       : nova-scheduler.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.scheduler.host manager Successfully synced instances from host 'cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us'.
+ID=58    : size=181       : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.osapi compute.wsgi.server <:IP:> "GET /v2/<:SEQ:>/servers/detail?all <:*:> HTTP/<:NUM:>.<:NUM:>" status: <:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>
+ID=88    : size=166       : nova-scheduler.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.scheduler.host manager Successfully synced instances from host 'cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us'.
+ID=79    : size=88        : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager VM <:*:> (Lifecycle Event)
+ID=86    : size=78        : nova-api.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.metadata.wsgi.server <:IP:>,<:IP:> "GET <:*:> HTTP/<:NUM:>.<:NUM:>" status: <:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>
+ID=87    : size=69        : nova-api.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.osapi compute.wsgi.server <:IP:> "GET /v2/<:SEQ:>/servers/detail?all <:*:> HTTP/<:NUM:>.<:NUM:>" status: <:NUM:> len: <:NUM:> time: <:NUM:>.<:NUM:>
+ID=36    : size=61        : <:*:> restarts:<:NUM:> age:<:DURATION:>
+ID=10    : size=52        : Loading <:*:>
+ID=90    : size=52        : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO <:*:> <:*:> <:*:>
+ID=20    : size=48        : Steady state <:*:> <:*:> <:*:>
+ID=62    : size=42        : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=23    : size=39        : => succeeded with '{'status': <:NUM:>}'
+ID=80    : size=35        : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.virt.libvirt.driver Instance <:*:> successfully.
+ID=81    : size=35        : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager Took <:NUM:>.<:NUM:> seconds to <:*:> the instance on the hypervisor.
+ID=82    : size=33        : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager During sync power state the instance has a pending task (spawning). Skip.
+ID=64    : size=28        : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=61    : size=27        : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> WARNING nova.compute.manager While synchronizing instance power states, found <:NUM:> instances in the database and <:NUM:> instances on the hypervisor.
+ID=7     : size=26        : Building activity cache...
+ID=8     : size=26        : Cached <:NUM:> activities
+ID=11    : size=26        : Done loading secrets
+ID=19    : size=26        : Running steady-state hypothesis <:*:> the method
+ID=21    : size=26        : Probe: checking battery level
+ID=22    : size=26        : Activity 'checking battery level' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/probes.py'
+ID=24    : size=26        : allowed tolerance is <:NUM:>
+ID=13    : size=25        : Clearing activities cache
+ID=63    : size=21        : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task <:*:> <:*:> <:*:> <:*:> <:*:>
+ID=29    : size=18        : notify/sensor-battery-low/humid-<:NUM:>
+ID=30    : size=18        : humid-sensor battery is low
+ID=31    : size=18        : sensor battery recharged
+ID=77    : size=18        : nova-api.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.api.openstack.compute.server external events Creating event <:*:> for instance <:*:>
+ID=92    : size=17        : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager Took <:NUM:>.<:NUM:> seconds to deallocate network for instance.
+ID=93    : size=17        : nova-api.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.api.openstack.wsgi HTTP exception thrown: No instances found for any event
+ID=94    : size=17        : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.claims Attempting claim: memory <:NUM:> MB, disk <:NUM:> GB, vcpus <:NUM:> CPU
+ID=60    : size=15        : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager Running instance usage audit for host cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us from <:DATE:> <:TIME:> to <:DATE:> <:TIME:>. <:NUM:> instances.
+ID=2     : size=13        : ###############################################################################
+ID=3     : size=13        : Running command 'run'
+ID=4     : size=13        : Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+ID=5     : size=13        : The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+ID=9     : size=13        : Validating the experiment's syntax
+ID=12    : size=13        : Experiment looks valid
+ID=14    : size=13        : Loading dynamic configuration...
+ID=15    : size=13        : Running experiment: Modify Sensor Battery Level/ Message-interval
+ID=16    : size=13        : Initializing controls
+ID=17    : size=13        : Steady-state strategy: default
+ID=18    : size=13        : Rollbacks strategy: default
+ID=25    : size=13        : Playing your experiment's method now...
+ID=26    : size=13        : Action: Chaos action to change battery level
+ID=27    : size=13        : Activity 'Chaos action to change battery level' loaded from '/home/ubuntu/chaos/custom/customChaosFunctions/actions.py'
+ID=28    : size=13        : Pausing after activity for <:DURATION:>...
+ID=34    : size=13        : Experiment ended with status: <:*:>
+ID=35    : size=12        : Cleaning up controls
+ID=32    : size=9         : Let's rollback...
+ID=33    : size=9         : No declared rollbacks, let's move on.
+ID=70    : size=9         : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> WARNING nova.virt.libvirt.driver couldn't obtain the vcpu count from domain id: <:*:> exception: Requested operation is not valid: cpu affinity is not supported
+ID=65    : size=7         : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task File "/usr/lib/python2.<:NUM:>/dist-packages/nova/virt/libvirt/imagecache.py", line <:NUM:>, in update
+ID=66    : size=7         : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task File "/usr/lib/python2.<:NUM:>/dist-packages/nova/virt/libvirt/utils.py", line <:NUM:>, in get disk backing file
+ID=67    : size=7         : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task InvalidDiskInfo: Disk info file is invalid: qemu-img failed to execute on <:*:> : Unexpected error while running command.
+ID=68    : size=7         : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task Command: /usr/bin/python -m oslo concurrency.prlimit --as=<:NUM:> --cpu=<:NUM:> -- env LC ALL=C LANG=C qemu-img info <:*:>
+ID=69    : size=7         : nova-compute.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR oslo service.periodic task Stderr: u"qemu-img: Could not open <:*:> Could not open <:*:> No such file or directory\n"
+ID=89    : size=6         : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.compute.manager Running instance usage audit for host cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us from <:DATE:> <:TIME:> to <:DATE:> <:TIME:>. <:NUM:> instances.
+ID=95    : size=5         : nova-scheduler.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.scheduler.host manager The instance sync for host 'cp-<:NUM:>.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match. Re-created its InstanceList.
+ID=37    : size=4         : Steady state probe 'checking battery level' is not in the given tolerance so failing this experiment
+ID=38    : size=4         : The steady-state has deviated, a weakness may have been discovered
+ID=96    : size=2         : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> INFO nova.virt.libvirt.imagecache Base or swap file too young to remove: /var/lib/nova/instances/ base/<:SEQ:>
+ID=71    : size=1         : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> ERROR keystonemiddleware.auth token Bad response code while validating token: <:NUM:>
+ID=72    : size=1         : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> WARNING keystonemiddleware.auth token Identity response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML <:NUM:>.<:NUM:>//EN">
+ID=73    : size=1         : nova-api.log.<:NUM:>.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> CRITICAL keystonemiddleware.auth token Unable to validate token: Failed to fetch token data from identity server
+ID=91    : size=1         : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> WARNING nova.compute.manager While synchronizing instance power states, found <:NUM:> instances in the database and <:NUM:> instances on the hypervisor.
+ID=97    : size=1         : nova-compute.log.<:DATE:> <:TIME:> <:DATE:> <:TIME:>.<:NUM:> <:NUM:> WARNING nova.virt.libvirt.driver couldn't obtain the vcpu count from domain id: b<:DURATION:><:NUM:>-c79b-41fe-<:NUM:>-5f2b89b<:DURATION:><:NUM:>, exception: Requested operation is not valid: cpu affinity is not supported

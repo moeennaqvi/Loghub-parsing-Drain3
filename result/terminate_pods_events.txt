@@ -1,0 +1,2039 @@
+2022-06-28 15:52:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:52:58 ; 2 ; ###############################################################################
+2022-06-28 15:52:58 ; 3 ; Running command 'run'
+2022-06-28 15:52:58 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:52:59 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:52:59 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:52:59 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:52:59 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:52:59 ; 8 ; Building activity cache...
+2022-06-28 15:52:59 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:52:59 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:52:59 ; 11 ; Loading <:*:>
+2022-06-28 15:52:59 ; 11 ; Loading <:*:>
+2022-06-28 15:52:59 ; 12 ; Done loading secrets
+2022-06-28 15:53:00 ; 13 ; Experiment looks valid
+2022-06-28 15:53:00 ; 14 ; Clearing activities cache
+2022-06-28 15:53:00 ; 8 ; Building activity cache...
+2022-06-28 15:53:00 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:53:00 ; 11 ; Loading <:*:>
+2022-06-28 15:53:00 ; 11 ; Loading <:*:>
+2022-06-28 15:53:00 ; 12 ; Done loading secrets
+2022-06-28 15:53:00 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:53:00 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:53:00 ; 17 ; Initializing controls
+2022-06-28 15:53:00 ; 18 ; Steady-state strategy: default
+2022-06-28 15:53:00 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:53:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:00 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:53:00 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:53:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:00 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:53:00 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:53:00 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:53:00 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:53:00 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:53:00 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:53:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:00 ; 28 ; allowed tolerance is True
+2022-06-28 15:53:00 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:53:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:00 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:53:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:00 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:53:00 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:53:00 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:53:00 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:53:00 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:53:00 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:53:00 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:53:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:05 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:53:05 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:53:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:05 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:53:05 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:53:05 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:53:05 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:53:05 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:53:05 ; 35 ; Activity failed
+2022-06-28 15:53:05 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:53:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:05 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:53:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:05 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:53:05 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:53:05 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:53:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:05 ; 41 ; Cleaning up controls
+2022-06-28 15:53:05 ; 14 ; Clearing activities cache
+2022-06-28 15:53:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:05 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:53:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:47 ; 2 ; ###############################################################################
+2022-06-28 15:53:47 ; 3 ; Running command 'run'
+2022-06-28 15:53:47 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:53:48 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:53:48 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 8 ; Building activity cache...
+2022-06-28 15:53:48 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:53:48 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:53:48 ; 11 ; Loading <:*:>
+2022-06-28 15:53:48 ; 11 ; Loading <:*:>
+2022-06-28 15:53:48 ; 12 ; Done loading secrets
+2022-06-28 15:53:48 ; 13 ; Experiment looks valid
+2022-06-28 15:53:48 ; 14 ; Clearing activities cache
+2022-06-28 15:53:48 ; 8 ; Building activity cache...
+2022-06-28 15:53:48 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:53:48 ; 11 ; Loading <:*:>
+2022-06-28 15:53:48 ; 11 ; Loading <:*:>
+2022-06-28 15:53:48 ; 12 ; Done loading secrets
+2022-06-28 15:53:48 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:53:48 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:53:48 ; 17 ; Initializing controls
+2022-06-28 15:53:48 ; 18 ; Steady-state strategy: default
+2022-06-28 15:53:48 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:53:48 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:53:48 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:53:48 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:53:48 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:53:48 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:53:48 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 28 ; allowed tolerance is True
+2022-06-28 15:53:48 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:48 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:53:48 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:53:48 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:53:48 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:53:48 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:53:48 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:53:48 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:53:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:50 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:53:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:53 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:53 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:53 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:53:53 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:53:53 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:53 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:53 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:53:53 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:53:53 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:53:53 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:53:53 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:53:53 ; 35 ; Activity failed
+2022-06-28 15:53:53 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:53:53 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:53 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:53:53 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:53 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:53:53 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:53:53 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:53:53 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:53:53 ; 41 ; Cleaning up controls
+2022-06-28 15:53:53 ; 14 ; Clearing activities cache
+2022-06-28 15:53:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:53:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:08 ; 2 ; ###############################################################################
+2022-06-28 15:54:08 ; 3 ; Running command 'run'
+2022-06-28 15:54:08 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:54:08 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:54:08 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:54:08 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:08 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:08 ; 8 ; Building activity cache...
+2022-06-28 15:54:08 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:54:08 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:54:08 ; 11 ; Loading <:*:>
+2022-06-28 15:54:08 ; 11 ; Loading <:*:>
+2022-06-28 15:54:08 ; 12 ; Done loading secrets
+2022-06-28 15:54:09 ; 13 ; Experiment looks valid
+2022-06-28 15:54:09 ; 14 ; Clearing activities cache
+2022-06-28 15:54:09 ; 8 ; Building activity cache...
+2022-06-28 15:54:09 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:54:09 ; 11 ; Loading <:*:>
+2022-06-28 15:54:09 ; 11 ; Loading <:*:>
+2022-06-28 15:54:09 ; 12 ; Done loading secrets
+2022-06-28 15:54:09 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:54:09 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:54:09 ; 17 ; Initializing controls
+2022-06-28 15:54:09 ; 18 ; Steady-state strategy: default
+2022-06-28 15:54:09 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:54:09 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:09 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:54:09 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:54:09 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:09 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:09 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:54:09 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:54:09 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:54:09 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:54:09 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:54:09 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:54:09 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:09 ; 28 ; allowed tolerance is True
+2022-06-28 15:54:09 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:54:09 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:09 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:54:09 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:09 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:09 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:54:09 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:54:09 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:54:09 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:54:09 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:54:09 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:54:09 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:54:09 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:54:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:11 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:54:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:19 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:54:19 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:54:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:19 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:54:19 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:54:19 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:54:19 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:54:19 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:54:19 ; 35 ; Activity failed
+2022-06-28 15:54:19 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:54:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:19 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:54:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:19 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:54:19 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:54:19 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:54:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:19 ; 41 ; Cleaning up controls
+2022-06-28 15:54:19 ; 14 ; Clearing activities cache
+2022-06-28 15:54:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:21 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:54:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:36 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:54:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:50 ; 2 ; ###############################################################################
+2022-06-28 15:54:50 ; 3 ; Running command 'run'
+2022-06-28 15:54:50 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:54:51 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:54:51 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:54:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:51 ; 8 ; Building activity cache...
+2022-06-28 15:54:51 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:54:51 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:54:51 ; 11 ; Loading <:*:>
+2022-06-28 15:54:51 ; 11 ; Loading <:*:>
+2022-06-28 15:54:51 ; 12 ; Done loading secrets
+2022-06-28 15:54:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:51 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:54:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:52 ; 13 ; Experiment looks valid
+2022-06-28 15:54:52 ; 14 ; Clearing activities cache
+2022-06-28 15:54:52 ; 8 ; Building activity cache...
+2022-06-28 15:54:52 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:54:52 ; 11 ; Loading <:*:>
+2022-06-28 15:54:52 ; 11 ; Loading <:*:>
+2022-06-28 15:54:52 ; 12 ; Done loading secrets
+2022-06-28 15:54:52 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:54:52 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:54:52 ; 17 ; Initializing controls
+2022-06-28 15:54:52 ; 18 ; Steady-state strategy: default
+2022-06-28 15:54:52 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:54:52 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:52 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:54:52 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:54:52 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:52 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:52 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:54:52 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:54:52 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:54:52 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:54:52 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:54:52 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:54:52 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:52 ; 28 ; allowed tolerance is True
+2022-06-28 15:54:52 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:54:52 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:52 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:54:52 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:52 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:54:52 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:54:52 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:54:52 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:54:52 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:54:52 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:54:52 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:54:52 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:54:52 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:54:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:54:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:55:02 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:55:02 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:55:02 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:55:02 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:55:02 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:55:02 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 28 ; allowed tolerance is True
+2022-06-28 15:55:02 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 43 ; Let's rollback...
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 44 ; No declared rollbacks, let's move on.
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:55:02 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:02 ; 41 ; Cleaning up controls
+2022-06-28 15:55:02 ; 14 ; Clearing activities cache
+2022-06-28 15:55:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:07 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:55:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:22 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:55:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:24 ; 2 ; ###############################################################################
+2022-06-28 15:55:24 ; 3 ; Running command 'run'
+2022-06-28 15:55:24 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:55:25 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:55:25 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 8 ; Building activity cache...
+2022-06-28 15:55:25 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:55:25 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:55:25 ; 11 ; Loading <:*:>
+2022-06-28 15:55:25 ; 11 ; Loading <:*:>
+2022-06-28 15:55:25 ; 12 ; Done loading secrets
+2022-06-28 15:55:25 ; 13 ; Experiment looks valid
+2022-06-28 15:55:25 ; 14 ; Clearing activities cache
+2022-06-28 15:55:25 ; 8 ; Building activity cache...
+2022-06-28 15:55:25 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:55:25 ; 11 ; Loading <:*:>
+2022-06-28 15:55:25 ; 11 ; Loading <:*:>
+2022-06-28 15:55:25 ; 12 ; Done loading secrets
+2022-06-28 15:55:25 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:55:25 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:55:25 ; 17 ; Initializing controls
+2022-06-28 15:55:25 ; 18 ; Steady-state strategy: default
+2022-06-28 15:55:25 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:55:25 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:55:25 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:55:25 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:55:25 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:55:25 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:55:25 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 28 ; allowed tolerance is True
+2022-06-28 15:55:25 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:25 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:55:25 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:55:25 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:55:25 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:55:25 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:55:25 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:55:25 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:55:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:27 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:55:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:35 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:35 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:35 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:55:35 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:55:35 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:35 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:35 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:55:35 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:55:35 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:55:35 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:55:35 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:55:35 ; 35 ; Activity failed
+2022-06-28 15:55:35 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:55:35 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:35 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:55:35 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:35 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:55:35 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:55:35 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:55:35 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:35 ; 41 ; Cleaning up controls
+2022-06-28 15:55:35 ; 14 ; Clearing activities cache
+2022-06-28 15:55:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:37 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:55:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:52 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:55:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:55:59 ; 2 ; ###############################################################################
+2022-06-28 15:55:59 ; 3 ; Running command 'run'
+2022-06-28 15:55:59 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:55:59 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:55:59 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:55:59 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:59 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:55:59 ; 8 ; Building activity cache...
+2022-06-28 15:55:59 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:55:59 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:55:59 ; 11 ; Loading <:*:>
+2022-06-28 15:55:59 ; 11 ; Loading <:*:>
+2022-06-28 15:55:59 ; 12 ; Done loading secrets
+2022-06-28 15:56:00 ; 13 ; Experiment looks valid
+2022-06-28 15:56:00 ; 14 ; Clearing activities cache
+2022-06-28 15:56:00 ; 8 ; Building activity cache...
+2022-06-28 15:56:00 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:56:00 ; 11 ; Loading <:*:>
+2022-06-28 15:56:00 ; 11 ; Loading <:*:>
+2022-06-28 15:56:00 ; 12 ; Done loading secrets
+2022-06-28 15:56:00 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:56:00 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:56:00 ; 17 ; Initializing controls
+2022-06-28 15:56:00 ; 18 ; Steady-state strategy: default
+2022-06-28 15:56:00 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:56:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:00 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:56:00 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:56:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:00 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:56:00 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:56:00 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:56:00 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:56:00 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:56:00 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:56:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:00 ; 28 ; allowed tolerance is True
+2022-06-28 15:56:00 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:56:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:00 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:56:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:00 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:56:00 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:56:00 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:56:00 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:56:00 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:56:00 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:56:00 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:56:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:02 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:56:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:07 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:56:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:10 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:10 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:10 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:56:10 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:56:10 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:10 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:10 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:56:10 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:56:10 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:56:10 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:56:10 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:56:10 ; 35 ; Activity failed
+2022-06-28 15:56:10 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:56:10 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:10 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:56:10 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:10 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:56:10 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:56:10 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:56:10 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:10 ; 41 ; Cleaning up controls
+2022-06-28 15:56:10 ; 14 ; Clearing activities cache
+2022-06-28 15:56:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:23 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:56:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:38 ; 2 ; ###############################################################################
+2022-06-28 15:56:38 ; 3 ; Running command 'run'
+2022-06-28 15:56:38 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:56:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:38 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:56:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:39 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:56:39 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:56:39 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:39 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:39 ; 8 ; Building activity cache...
+2022-06-28 15:56:39 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:56:39 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:56:39 ; 11 ; Loading <:*:>
+2022-06-28 15:56:39 ; 11 ; Loading <:*:>
+2022-06-28 15:56:39 ; 12 ; Done loading secrets
+2022-06-28 15:56:40 ; 13 ; Experiment looks valid
+2022-06-28 15:56:40 ; 14 ; Clearing activities cache
+2022-06-28 15:56:40 ; 8 ; Building activity cache...
+2022-06-28 15:56:40 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:56:40 ; 11 ; Loading <:*:>
+2022-06-28 15:56:40 ; 11 ; Loading <:*:>
+2022-06-28 15:56:40 ; 12 ; Done loading secrets
+2022-06-28 15:56:40 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:56:40 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:56:40 ; 17 ; Initializing controls
+2022-06-28 15:56:40 ; 18 ; Steady-state strategy: default
+2022-06-28 15:56:40 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:56:40 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:40 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:56:40 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:56:40 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:40 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:40 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:56:40 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:56:40 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:56:40 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:56:40 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:56:40 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:56:40 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:40 ; 28 ; allowed tolerance is True
+2022-06-28 15:56:40 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:56:40 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:40 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:56:40 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:40 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:40 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:56:40 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:56:40 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:56:40 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:56:40 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:56:40 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:56:40 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:56:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:43 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:56:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:50 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:56:50 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:56:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:50 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:56:50 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:56:50 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:56:50 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:56:50 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:56:50 ; 35 ; Activity failed
+2022-06-28 15:56:50 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:56:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:50 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:56:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:50 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:56:50 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:56:50 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:56:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:56:50 ; 41 ; Cleaning up controls
+2022-06-28 15:56:50 ; 14 ; Clearing activities cache
+2022-06-28 15:56:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:53 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:56:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:56:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:14 ; 2 ; ###############################################################################
+2022-06-28 15:57:14 ; 3 ; Running command 'run'
+2022-06-28 15:57:14 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:57:15 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:57:15 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:57:15 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:15 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:15 ; 8 ; Building activity cache...
+2022-06-28 15:57:15 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:57:15 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:57:15 ; 11 ; Loading <:*:>
+2022-06-28 15:57:15 ; 11 ; Loading <:*:>
+2022-06-28 15:57:15 ; 12 ; Done loading secrets
+2022-06-28 15:57:16 ; 13 ; Experiment looks valid
+2022-06-28 15:57:16 ; 14 ; Clearing activities cache
+2022-06-28 15:57:16 ; 8 ; Building activity cache...
+2022-06-28 15:57:16 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:57:16 ; 11 ; Loading <:*:>
+2022-06-28 15:57:16 ; 11 ; Loading <:*:>
+2022-06-28 15:57:16 ; 12 ; Done loading secrets
+2022-06-28 15:57:16 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:57:16 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:57:16 ; 17 ; Initializing controls
+2022-06-28 15:57:16 ; 18 ; Steady-state strategy: default
+2022-06-28 15:57:16 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:57:16 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:16 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:57:16 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:57:16 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:16 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:16 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:57:16 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:57:16 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:57:16 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:57:16 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:57:16 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:57:16 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:16 ; 28 ; allowed tolerance is True
+2022-06-28 15:57:16 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:57:16 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:16 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:57:16 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:16 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:16 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:57:16 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:57:16 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:57:16 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:57:16 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:57:16 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:57:16 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:57:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:19 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:57:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:24 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:57:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:26 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:26 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:26 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:57:26 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:57:26 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:26 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:26 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:57:26 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:57:26 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:57:26 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:57:26 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:57:26 ; 35 ; Activity failed
+2022-06-28 15:57:26 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:57:26 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:26 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:57:26 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:26 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:57:26 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:57:26 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:57:26 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:26 ; 41 ; Cleaning up controls
+2022-06-28 15:57:26 ; 14 ; Clearing activities cache
+2022-06-28 15:57:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:31 ; 2 ; ###############################################################################
+2022-06-28 15:57:31 ; 3 ; Running command 'run'
+2022-06-28 15:57:31 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:57:32 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:57:32 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 8 ; Building activity cache...
+2022-06-28 15:57:32 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:57:32 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:57:32 ; 11 ; Loading <:*:>
+2022-06-28 15:57:32 ; 11 ; Loading <:*:>
+2022-06-28 15:57:32 ; 12 ; Done loading secrets
+2022-06-28 15:57:32 ; 13 ; Experiment looks valid
+2022-06-28 15:57:32 ; 14 ; Clearing activities cache
+2022-06-28 15:57:32 ; 8 ; Building activity cache...
+2022-06-28 15:57:32 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:57:32 ; 11 ; Loading <:*:>
+2022-06-28 15:57:32 ; 11 ; Loading <:*:>
+2022-06-28 15:57:32 ; 12 ; Done loading secrets
+2022-06-28 15:57:32 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:57:32 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:57:32 ; 17 ; Initializing controls
+2022-06-28 15:57:32 ; 18 ; Steady-state strategy: default
+2022-06-28 15:57:32 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:57:32 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:57:32 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:57:32 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:57:32 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:57:32 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:57:32 ; 35 ; Activity failed
+2022-06-28 15:57:32 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:57:32 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:57:32 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:32 ; 41 ; Cleaning up controls
+2022-06-28 15:57:32 ; 14 ; Clearing activities cache
+2022-06-28 15:57:34 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:34 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:34 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:34 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:34 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:49 ; 2 ; ###############################################################################
+2022-06-28 15:57:49 ; 3 ; Running command 'run'
+2022-06-28 15:57:49 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:57:49 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:57:49 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:57:49 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:49 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:49 ; 8 ; Building activity cache...
+2022-06-28 15:57:49 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:57:49 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:57:49 ; 11 ; Loading <:*:>
+2022-06-28 15:57:49 ; 11 ; Loading <:*:>
+2022-06-28 15:57:49 ; 12 ; Done loading secrets
+2022-06-28 15:57:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:50 ; 13 ; Experiment looks valid
+2022-06-28 15:57:50 ; 14 ; Clearing activities cache
+2022-06-28 15:57:50 ; 8 ; Building activity cache...
+2022-06-28 15:57:50 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:57:50 ; 11 ; Loading <:*:>
+2022-06-28 15:57:50 ; 11 ; Loading <:*:>
+2022-06-28 15:57:50 ; 12 ; Done loading secrets
+2022-06-28 15:57:50 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:57:50 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:57:50 ; 17 ; Initializing controls
+2022-06-28 15:57:50 ; 18 ; Steady-state strategy: default
+2022-06-28 15:57:50 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:57:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:50 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:57:50 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:57:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:50 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:57:50 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:57:50 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:57:50 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:57:50 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:57:50 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:57:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:50 ; 28 ; allowed tolerance is True
+2022-06-28 15:57:50 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:57:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:50 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:57:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:50 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:57:50 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:57:50 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:57:50 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:57:50 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:57:50 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:57:50 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:57:50 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:57:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:54 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:57:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:57:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:05 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:58:05 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:58:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:05 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:58:05 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:58:05 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:58:05 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:58:05 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:58:05 ; 35 ; Activity failed
+2022-06-28 15:58:05 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:58:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:05 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:58:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:05 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:58:05 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:58:05 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:58:05 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:05 ; 41 ; Cleaning up controls
+2022-06-28 15:58:05 ; 14 ; Clearing activities cache
+2022-06-28 15:58:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:30 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:41 ; 2 ; ###############################################################################
+2022-06-28 15:58:41 ; 3 ; Running command 'run'
+2022-06-28 15:58:41 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:58:42 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:58:42 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 8 ; Building activity cache...
+2022-06-28 15:58:42 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:58:42 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:58:42 ; 11 ; Loading <:*:>
+2022-06-28 15:58:42 ; 11 ; Loading <:*:>
+2022-06-28 15:58:42 ; 12 ; Done loading secrets
+2022-06-28 15:58:42 ; 13 ; Experiment looks valid
+2022-06-28 15:58:42 ; 14 ; Clearing activities cache
+2022-06-28 15:58:42 ; 8 ; Building activity cache...
+2022-06-28 15:58:42 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:58:42 ; 11 ; Loading <:*:>
+2022-06-28 15:58:42 ; 11 ; Loading <:*:>
+2022-06-28 15:58:42 ; 12 ; Done loading secrets
+2022-06-28 15:58:42 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:58:42 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:58:42 ; 17 ; Initializing controls
+2022-06-28 15:58:42 ; 18 ; Steady-state strategy: default
+2022-06-28 15:58:42 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:58:42 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:58:42 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:58:42 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:58:42 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:58:42 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:58:42 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 28 ; allowed tolerance is True
+2022-06-28 15:58:42 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:42 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:58:42 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:58:42 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:58:42 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:58:42 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:58:42 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:58:42 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:58:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:45 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:58:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:58:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:57 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:58:57 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:58:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:57 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:58:57 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:58:57 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:58:57 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:58:57 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:58:57 ; 35 ; Activity failed
+2022-06-28 15:58:57 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 15:58:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:57 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 15:58:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:57 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 15:58:57 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 15:58:57 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 15:58:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:58:57 ; 41 ; Cleaning up controls
+2022-06-28 15:58:57 ; 14 ; Clearing activities cache
+2022-06-28 15:59:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:43 ; 2 ; ###############################################################################
+2022-06-28 15:59:43 ; 3 ; Running command 'run'
+2022-06-28 15:59:43 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 15:59:44 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 15:59:44 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 15:59:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:44 ; 8 ; Building activity cache...
+2022-06-28 15:59:44 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:59:44 ; 10 ; Validating the experiment's syntax
+2022-06-28 15:59:44 ; 11 ; Loading <:*:>
+2022-06-28 15:59:44 ; 11 ; Loading <:*:>
+2022-06-28 15:59:44 ; 12 ; Done loading secrets
+2022-06-28 15:59:45 ; 13 ; Experiment looks valid
+2022-06-28 15:59:45 ; 14 ; Clearing activities cache
+2022-06-28 15:59:45 ; 8 ; Building activity cache...
+2022-06-28 15:59:45 ; 9 ; Cached <:NUM:> activities
+2022-06-28 15:59:45 ; 11 ; Loading <:*:>
+2022-06-28 15:59:45 ; 11 ; Loading <:*:>
+2022-06-28 15:59:45 ; 12 ; Done loading secrets
+2022-06-28 15:59:45 ; 15 ; Loading dynamic configuration...
+2022-06-28 15:59:45 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 15:59:45 ; 17 ; Initializing controls
+2022-06-28 15:59:45 ; 18 ; Steady-state strategy: default
+2022-06-28 15:59:45 ; 19 ; Rollbacks strategy: default
+2022-06-28 15:59:45 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:45 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 15:59:45 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 15:59:45 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:45 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:45 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 15:59:45 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:59:45 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:59:45 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 15:59:45 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 15:59:45 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:59:45 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:45 ; 28 ; allowed tolerance is True
+2022-06-28 15:59:45 ; 29 ; Steady state hypothesis is met!
+2022-06-28 15:59:45 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:45 ; 30 ; Playing your experiment's method now...
+2022-06-28 15:59:45 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:45 ; 7 ; No controls to apply on <:*:>
+2022-06-28 15:59:45 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 15:59:45 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 15:59:45 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 15:59:45 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 15:59:45 ; 33 ; Pod <:*:> match pattern
+2022-06-28 15:59:45 ; 27 ; => succeeded with <:*:>
+2022-06-28 15:59:45 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 15:59:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:46 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 15:59:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 15:59:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:00 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:00:00 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:00:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:00 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:00:00 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:00:00 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:00:00 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:00:00 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:00:00 ; 35 ; Activity failed
+2022-06-28 16:00:00 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 16:00:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:00 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 16:00:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:00 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 16:00:00 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 16:00:00 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 16:00:00 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:00 ; 41 ; Cleaning up controls
+2022-06-28 16:00:00 ; 14 ; Clearing activities cache
+2022-06-28 16:00:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:36 ; 2 ; ###############################################################################
+2022-06-28 16:00:36 ; 3 ; Running command 'run'
+2022-06-28 16:00:36 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 16:00:36 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 16:00:36 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 16:00:36 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:36 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:36 ; 8 ; Building activity cache...
+2022-06-28 16:00:36 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:00:36 ; 10 ; Validating the experiment's syntax
+2022-06-28 16:00:36 ; 11 ; Loading <:*:>
+2022-06-28 16:00:36 ; 11 ; Loading <:*:>
+2022-06-28 16:00:36 ; 12 ; Done loading secrets
+2022-06-28 16:00:37 ; 13 ; Experiment looks valid
+2022-06-28 16:00:37 ; 14 ; Clearing activities cache
+2022-06-28 16:00:37 ; 8 ; Building activity cache...
+2022-06-28 16:00:37 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:00:37 ; 11 ; Loading <:*:>
+2022-06-28 16:00:37 ; 11 ; Loading <:*:>
+2022-06-28 16:00:37 ; 12 ; Done loading secrets
+2022-06-28 16:00:37 ; 15 ; Loading dynamic configuration...
+2022-06-28 16:00:37 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 16:00:37 ; 17 ; Initializing controls
+2022-06-28 16:00:37 ; 18 ; Steady-state strategy: default
+2022-06-28 16:00:37 ; 19 ; Rollbacks strategy: default
+2022-06-28 16:00:37 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:37 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:00:37 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:00:37 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:37 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:37 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:00:37 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:00:37 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:00:37 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:00:37 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:00:37 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:00:37 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:37 ; 28 ; allowed tolerance is True
+2022-06-28 16:00:37 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:00:37 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:37 ; 30 ; Playing your experiment's method now...
+2022-06-28 16:00:37 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:37 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:37 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 16:00:37 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:00:37 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:00:37 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 16:00:37 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:00:37 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:00:37 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:00:37 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 16:00:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:37 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:00:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:42 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:00:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:52 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:00:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:57 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:00:57 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:00:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:57 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:00:57 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:00:57 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:00:57 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:00:57 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:00:57 ; 35 ; Activity failed
+2022-06-28 16:00:57 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 16:00:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:57 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 16:00:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:57 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 16:00:57 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 16:00:57 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 16:00:57 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:00:57 ; 41 ; Cleaning up controls
+2022-06-28 16:00:57 ; 14 ; Clearing activities cache
+2022-06-28 16:00:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:00:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:07 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:01:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:07 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:12 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:17 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:22 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:01:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:22 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:27 ; 2 ; ###############################################################################
+2022-06-28 16:01:27 ; 3 ; Running command 'run'
+2022-06-28 16:01:27 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 16:01:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:27 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:28 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 16:01:28 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 8 ; Building activity cache...
+2022-06-28 16:01:28 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:01:28 ; 10 ; Validating the experiment's syntax
+2022-06-28 16:01:28 ; 11 ; Loading <:*:>
+2022-06-28 16:01:28 ; 11 ; Loading <:*:>
+2022-06-28 16:01:28 ; 12 ; Done loading secrets
+2022-06-28 16:01:28 ; 13 ; Experiment looks valid
+2022-06-28 16:01:28 ; 14 ; Clearing activities cache
+2022-06-28 16:01:28 ; 8 ; Building activity cache...
+2022-06-28 16:01:28 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:01:28 ; 11 ; Loading <:*:>
+2022-06-28 16:01:28 ; 11 ; Loading <:*:>
+2022-06-28 16:01:28 ; 12 ; Done loading secrets
+2022-06-28 16:01:28 ; 15 ; Loading dynamic configuration...
+2022-06-28 16:01:28 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 16:01:28 ; 17 ; Initializing controls
+2022-06-28 16:01:28 ; 18 ; Steady-state strategy: default
+2022-06-28 16:01:28 ; 19 ; Rollbacks strategy: default
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:01:28 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:01:28 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:01:28 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:01:28 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:01:28 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:01:28 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 28 ; allowed tolerance is True
+2022-06-28 16:01:28 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 30 ; Playing your experiment's method now...
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:28 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 16:01:28 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:01:28 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:01:28 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 16:01:28 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:01:28 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:01:28 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 16:01:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:32 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:01:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:32 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:38 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:01:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:38 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:43 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:01:48 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:01:48 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:01:48 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:01:48 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:01:48 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:01:48 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 28 ; allowed tolerance is True
+2022-06-28 16:01:48 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 43 ; Let's rollback...
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 44 ; No declared rollbacks, let's move on.
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 16:01:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:01:48 ; 41 ; Cleaning up controls
+2022-06-28 16:01:48 ; 14 ; Clearing activities cache
+2022-06-28 16:01:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:48 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:53 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:01:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:53 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:01:58 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:03 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:08 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:02:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:08 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:13 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:18 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:23 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:02:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:23 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:28 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:30 ; 2 ; ###############################################################################
+2022-06-28 16:02:30 ; 3 ; Running command 'run'
+2022-06-28 16:02:30 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 16:02:31 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 16:02:31 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 8 ; Building activity cache...
+2022-06-28 16:02:31 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:02:31 ; 10 ; Validating the experiment's syntax
+2022-06-28 16:02:31 ; 11 ; Loading <:*:>
+2022-06-28 16:02:31 ; 11 ; Loading <:*:>
+2022-06-28 16:02:31 ; 12 ; Done loading secrets
+2022-06-28 16:02:31 ; 13 ; Experiment looks valid
+2022-06-28 16:02:31 ; 14 ; Clearing activities cache
+2022-06-28 16:02:31 ; 8 ; Building activity cache...
+2022-06-28 16:02:31 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:02:31 ; 11 ; Loading <:*:>
+2022-06-28 16:02:31 ; 11 ; Loading <:*:>
+2022-06-28 16:02:31 ; 12 ; Done loading secrets
+2022-06-28 16:02:31 ; 15 ; Loading dynamic configuration...
+2022-06-28 16:02:31 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 16:02:31 ; 17 ; Initializing controls
+2022-06-28 16:02:31 ; 18 ; Steady-state strategy: default
+2022-06-28 16:02:31 ; 19 ; Rollbacks strategy: default
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:02:31 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:02:31 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:02:31 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:02:31 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:02:31 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:02:31 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 28 ; allowed tolerance is True
+2022-06-28 16:02:31 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 30 ; Playing your experiment's method now...
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:31 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 16:02:31 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:02:31 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:02:31 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 16:02:31 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:02:31 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:02:31 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 16:02:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:33 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:02:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:33 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:39 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:02:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:39 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:44 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:49 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:51 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:02:51 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:02:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:51 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:02:51 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:02:51 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:02:51 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:02:51 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:02:51 ; 35 ; Activity failed
+2022-06-28 16:02:51 ; 36 ; => failed: chaoslib.exceptions.ActivityFailed: Deployment 'humid-sensor-service' is not healthy
+2022-06-28 16:02:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:51 ; 37 ; Probe terminated unexpectedly, so its tolerance could not be validated
+2022-06-28 16:02:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:51 ; 38 ; Steady state probe 'all-our-microservices-should-be-healthy' is not in the given tolerance so failing this experiment
+2022-06-28 16:02:51 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 16:02:51 ; 40 ; The steady-state has deviated, a weakness may have been discovered
+2022-06-28 16:02:51 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:02:51 ; 41 ; Cleaning up controls
+2022-06-28 16:02:51 ; 14 ; Clearing activities cache
+2022-06-28 16:02:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:54 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:02:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:54 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:02:59 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:04 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:09 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:14 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:18 ; 2 ; ###############################################################################
+2022-06-28 16:03:18 ; 3 ; Running command 'run'
+2022-06-28 16:03:18 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 16:03:19 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 16:03:19 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 8 ; Building activity cache...
+2022-06-28 16:03:19 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:03:19 ; 10 ; Validating the experiment's syntax
+2022-06-28 16:03:19 ; 11 ; Loading <:*:>
+2022-06-28 16:03:19 ; 11 ; Loading <:*:>
+2022-06-28 16:03:19 ; 12 ; Done loading secrets
+2022-06-28 16:03:19 ; 13 ; Experiment looks valid
+2022-06-28 16:03:19 ; 14 ; Clearing activities cache
+2022-06-28 16:03:19 ; 8 ; Building activity cache...
+2022-06-28 16:03:19 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:03:19 ; 11 ; Loading <:*:>
+2022-06-28 16:03:19 ; 11 ; Loading <:*:>
+2022-06-28 16:03:19 ; 12 ; Done loading secrets
+2022-06-28 16:03:19 ; 15 ; Loading dynamic configuration...
+2022-06-28 16:03:19 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 16:03:19 ; 17 ; Initializing controls
+2022-06-28 16:03:19 ; 18 ; Steady-state strategy: default
+2022-06-28 16:03:19 ; 19 ; Rollbacks strategy: default
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:03:19 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:03:19 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:03:19 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:03:19 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:03:19 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:03:19 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 28 ; allowed tolerance is True
+2022-06-28 16:03:19 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 30 ; Playing your experiment's method now...
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:19 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 16:03:19 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:03:19 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:03:19 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 16:03:19 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:03:19 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:03:19 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 16:03:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:19 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:03:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:19 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:24 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:03:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:24 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:29 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:35 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:40 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:03:44 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:03:44 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:03:44 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:03:44 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:03:44 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:03:44 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 28 ; allowed tolerance is True
+2022-06-28 16:03:44 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 43 ; Let's rollback...
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 44 ; No declared rollbacks, let's move on.
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 16:03:44 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:03:44 ; 41 ; Cleaning up controls
+2022-06-28 16:03:44 ; 14 ; Clearing activities cache
+2022-06-28 16:03:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:45 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:50 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:03:55 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:00 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:05 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:10 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:15 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:20 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:22 ; 2 ; ###############################################################################
+2022-06-28 16:04:22 ; 3 ; Running command 'run'
+2022-06-28 16:04:22 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 16:04:22 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 16:04:22 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 16:04:22 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:22 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:22 ; 8 ; Building activity cache...
+2022-06-28 16:04:22 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:04:22 ; 10 ; Validating the experiment's syntax
+2022-06-28 16:04:22 ; 11 ; Loading <:*:>
+2022-06-28 16:04:22 ; 11 ; Loading <:*:>
+2022-06-28 16:04:22 ; 12 ; Done loading secrets
+2022-06-28 16:04:23 ; 13 ; Experiment looks valid
+2022-06-28 16:04:23 ; 14 ; Clearing activities cache
+2022-06-28 16:04:23 ; 8 ; Building activity cache...
+2022-06-28 16:04:23 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:04:23 ; 11 ; Loading <:*:>
+2022-06-28 16:04:23 ; 11 ; Loading <:*:>
+2022-06-28 16:04:23 ; 12 ; Done loading secrets
+2022-06-28 16:04:23 ; 15 ; Loading dynamic configuration...
+2022-06-28 16:04:23 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 16:04:23 ; 17 ; Initializing controls
+2022-06-28 16:04:23 ; 18 ; Steady-state strategy: default
+2022-06-28 16:04:23 ; 19 ; Rollbacks strategy: default
+2022-06-28 16:04:23 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:23 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:04:23 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:04:23 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:23 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:23 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:04:23 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:04:23 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:04:23 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:04:23 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:04:23 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:04:23 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:23 ; 28 ; allowed tolerance is True
+2022-06-28 16:04:23 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:04:23 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:23 ; 30 ; Playing your experiment's method now...
+2022-06-28 16:04:23 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:23 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:23 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 16:04:23 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:04:23 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:04:23 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 16:04:23 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:04:23 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:04:23 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:04:23 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 16:04:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:25 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:04:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:25 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:36 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:41 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:46 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:04:48 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:04:48 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:04:48 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:04:48 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:04:48 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:04:48 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 28 ; allowed tolerance is True
+2022-06-28 16:04:48 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 43 ; Let's rollback...
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 44 ; No declared rollbacks, let's move on.
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 16:04:48 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:04:48 ; 41 ; Cleaning up controls
+2022-06-28 16:04:48 ; 14 ; Clearing activities cache
+2022-06-28 16:04:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:51 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:04:56 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:01 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:06 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:11 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:16 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:21 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:26 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:28 ; 2 ; ###############################################################################
+2022-06-28 16:05:28 ; 3 ; Running command 'run'
+2022-06-28 16:05:28 ; 4 ; Using settings file '/home/ubuntu/.chaostoolkit/settings.yaml'
+2022-06-28 16:05:29 ; 5 ; There is a new version (<:NUM:>.<:NUM:>.<:NUM:>) of the chaostoolkit available. You may upgrade by typing: $ pip install -U chaostoolkit Please review changes at <:URL:>
+2022-06-28 16:05:29 ; 6 ; The Chaos Toolkit settings file could not be found at '/home/ubuntu/.chaostoolkit/settings.yaml'.
+2022-06-28 16:05:29 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:29 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:29 ; 8 ; Building activity cache...
+2022-06-28 16:05:29 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:05:29 ; 10 ; Validating the experiment's syntax
+2022-06-28 16:05:29 ; 11 ; Loading <:*:>
+2022-06-28 16:05:29 ; 11 ; Loading <:*:>
+2022-06-28 16:05:29 ; 12 ; Done loading secrets
+2022-06-28 16:05:30 ; 13 ; Experiment looks valid
+2022-06-28 16:05:30 ; 14 ; Clearing activities cache
+2022-06-28 16:05:30 ; 8 ; Building activity cache...
+2022-06-28 16:05:30 ; 9 ; Cached <:NUM:> activities
+2022-06-28 16:05:30 ; 11 ; Loading <:*:>
+2022-06-28 16:05:30 ; 11 ; Loading <:*:>
+2022-06-28 16:05:30 ; 12 ; Done loading secrets
+2022-06-28 16:05:30 ; 15 ; Loading dynamic configuration...
+2022-06-28 16:05:30 ; 16 ; Running experiment: Do we remain available in case of pod going down?
+2022-06-28 16:05:30 ; 17 ; Initializing controls
+2022-06-28 16:05:30 ; 18 ; Steady-state strategy: default
+2022-06-28 16:05:30 ; 19 ; Rollbacks strategy: default
+2022-06-28 16:05:30 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:30 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:05:30 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:05:30 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:30 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:30 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:05:30 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:05:30 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:05:30 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:05:30 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:05:30 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:05:30 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:30 ; 28 ; allowed tolerance is True
+2022-06-28 16:05:30 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:05:30 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:30 ; 30 ; Playing your experiment's method now...
+2022-06-28 16:05:30 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:30 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:30 ; 31 ; Action: terminate-humidSensor-pod
+2022-06-28 16:05:30 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:05:30 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:05:30 ; 32 ; Found <:NUM:> pods in ns 'default'
+2022-06-28 16:05:30 ; 33 ; Pod <:*:> match pattern
+2022-06-28 16:05:30 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:05:30 ; 34 ; Pausing after activity for <:DURATION:>...
+2022-06-28 16:05:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:31 ; 42 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> <:DURATION:>
+2022-06-28 16:05:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:31 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:37 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:42 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:47 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:52 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 20 ; Running steady-state hypothesis <:*:> the method
+2022-06-28 16:05:55 ; 21 ; Steady state hypothesis: Verifying service remains healthy
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 22 ; Probe: all-our-microservices-should-be-healthy
+2022-06-28 16:05:55 ; 23 ; Activity <:*:> loaded from <:*:>
+2022-06-28 16:05:55 ; 24 ; Using Kubernetes context 'default' from config '/home/ubuntu/.kube/config'
+2022-06-28 16:05:55 ; 25 ; Found <:NUM:> deployment(s) named 'humid-sensor-service' in ns 'default'
+2022-06-28 16:05:55 ; 26 ; Deployment has <:*:> available replicas
+2022-06-28 16:05:55 ; 27 ; => succeeded with <:*:>
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 28 ; allowed tolerance is True
+2022-06-28 16:05:55 ; 29 ; Steady state hypothesis is met!
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 43 ; Let's rollback...
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 44 ; No declared rollbacks, let's move on.
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 39 ; Experiment ended with status: <:*:>
+2022-06-28 16:05:55 ; 7 ; No controls to apply on <:*:>
+2022-06-28 16:05:55 ; 41 ; Cleaning up controls
+2022-06-28 16:05:55 ; 14 ; Clearing activities cache
+2022-06-28 16:05:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:05:57 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:06:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:06:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:06:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
+2022-06-28 16:06:02 ; 1 ; <:*:> <:NUM:>/<:NUM:> <:*:> <:NUM:> (<:DURATION:> ago) <:DURATION:>
